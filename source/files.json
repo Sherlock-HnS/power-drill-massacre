@@ -1,0 +1,128 @@
+[
+  {
+    "path": "lua/autorun/include/powerdrill.lua",
+    "size": 7378,
+    "crc": 3357709602,
+    "sha256": "12f388350a690bf3e97ec8d85420ded6f91043a53bc7e25f8f016b0092e65174"
+  },
+  {
+    "path": "lua/autorun/pill_power_drill_base.lua",
+    "size": 2084,
+    "crc": 548007983,
+    "sha256": "a4de617c12e8e898c6bded8604301f21088349207506a00a9837dd5cb8af8224"
+  },
+  {
+    "path": "materials/fogstare.vmt",
+    "size": 69,
+    "crc": 784624578,
+    "sha256": "0411a20ad68c1aaf012c9dd61b01e8c5145c58259377271c27cc78b9c805b64c"
+  },
+  {
+    "path": "materials/fogstare.vtf",
+    "size": 349760,
+    "crc": 1768437016,
+    "sha256": "4a887e0aeeed8f5f06d33b3c6921f9bf8bebdd2ad9f8f06552791dab8c2a61d1"
+  },
+  {
+    "path": "materials/icon/pill_powerdrill.png",
+    "size": 556090,
+    "crc": 1494047615,
+    "sha256": "af623e6fd82dc13dda3bac09e9d15ebaaf0ea8bc1c174cf43d3c8bd89c96ddfb"
+  },
+  {
+    "path": "materials/models/puppet_combo/driller/body.vmt",
+    "size": 78,
+    "crc": 645181082,
+    "sha256": "09248ac296474363fa1d9b94af62080874554b01ed10c3a3aceb762b6fee5fd2"
+  },
+  {
+    "path": "materials/models/puppet_combo/driller/body.vtf",
+    "size": 349688,
+    "crc": 178191095,
+    "sha256": "a481c1e30e29f77822e815602e550d62782bfb49f2ce98cc33b9583748a7f1eb"
+  },
+  {
+    "path": "materials/models/puppet_combo/driller/drill.vmt",
+    "size": 79,
+    "crc": 1617695489,
+    "sha256": "003f047a41f66f2ccd0b64bea0917bfd4a36a2d59d7dbf5aec95956e6ac9701d"
+  },
+  {
+    "path": "materials/models/puppet_combo/driller/drill.vtf",
+    "size": 699272,
+    "crc": 223956387,
+    "sha256": "952be22a308fc9a3c52e2b6295c3e341889c55a7df79521817900df646b222af"
+  },
+  {
+    "path": "materials/pills/pill_powerdrill.png",
+    "size": 556090,
+    "crc": 1494047615,
+    "sha256": "af623e6fd82dc13dda3bac09e9d15ebaaf0ea8bc1c174cf43d3c8bd89c96ddfb"
+  },
+  {
+    "path": "models/driller/puppet_combo/drillerv2.dx80.vtx",
+    "size": 15067,
+    "crc": 2191955427,
+    "sha256": "8ed1e0fd2d46764465f22fd3a0f6e542f296d9b694e52983ada29f6e469f7ff8"
+  },
+  {
+    "path": "models/driller/puppet_combo/drillerv2.dx90.vtx",
+    "size": 14833,
+    "crc": 3763354852,
+    "sha256": "da463bbf0cb709c80fa134535defcf2561538a64fb411e8b028057a17e4024b1"
+  },
+  {
+    "path": "models/driller/puppet_combo/drillerv2.mdl",
+    "size": 80112,
+    "crc": 485772925,
+    "sha256": "9446009df0aacef8b98153b5e1b015ae9090a957307d2d153c6db321200b3d63"
+  },
+  {
+    "path": "models/driller/puppet_combo/drillerv2.vvd",
+    "size": 57088,
+    "crc": 1572982650,
+    "sha256": "eddd00a84717e3696757af917508077cb0e3d45cd4731f727bd8f809a2cd7189"
+  },
+  {
+    "path": "sound/slender/driller/chasing.wav",
+    "size": 1569882,
+    "crc": 1769368749,
+    "sha256": "2d0a005aa7ede8ac83cc6b473dde688f266935dc613064b57a0ee01f6de61e58"
+  },
+  {
+    "path": "sound/slender/driller/drill.wav",
+    "size": 65662,
+    "crc": 712677475,
+    "sha256": "f4142ad963ecdf23b6e79403260cc84ffdfc0ddc535db7f0bff2762612e5fff8"
+  },
+  {
+    "path": "sound/slender/driller/end.wav",
+    "size": 624994,
+    "crc": 566426631,
+    "sha256": "96ee998a003e4cdbb17e25f759801583c7599deb6fb70ba8b4f056b1a8a41e62"
+  },
+  {
+    "path": "sound/slender/driller/stab2.wav",
+    "size": 120754,
+    "crc": 3607034493,
+    "sha256": "942562ac289f6004c9edf60f10a4828664710c820b3d07465701243cc284995e"
+  },
+  {
+    "path": "sound/slender/driller/sting1.wav",
+    "size": 476308,
+    "crc": 1618113222,
+    "sha256": "50858e94aca3f85e3d12c122faa7fb36337fd8a8d6c976b30702798f5a7e5b9d"
+  },
+  {
+    "path": "sound/slender/driller/sting2.wav",
+    "size": 185890,
+    "crc": 969570220,
+    "sha256": "32cdad69691ea23408b4c1a507aa289543fd024d2097a655bdaac82c6caa53c3"
+  },
+  {
+    "path": "sound/slender/driller/stinger2titles.wav",
+    "size": 632400,
+    "crc": 2049226416,
+    "sha256": "87a65c240a3d944b11dc59ed993e0a55bd47d3878ff1c9f1512cb6ee35422abb"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "id": "3724045661",
+  "name": "power-drill-massacre",
+  "title": "[PILL PACK] Power Drill Massacre (UPDATE)",
+  "author": "Brute_Zeal3310",
+  "status": "extracted_verified",
+  "acquisition": "existing_steam_client_installation",
+  "steamcmd_download_completed": false,
+  "source_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3724045661",
+  "source_archive_sha256": "d025039f6dd62d67662d707fead07ff5a1144ed0472adb71bfbbc565b471e72f",
+  "gma_header": {
+    "title": "[PILL PACK] Power Drill Massacre (UPDATE)",
+    "description": "{\"title\":\"[PILL PACK] Power Drill Massacre (UPDATE)\",\"type\":\"entity\",\"tags\":[\"fun\",\"roleplay\",\"scenic\"],\"ignore\":[]}",
+    "author": "Author Name",
+    "steam_id": "0",
+    "timestamp": 1783986222
+  },
+  "files": 21,
+  "payload_bytes": 6363578,
+  "roundtrip_verified": true,
+  "packaging_exclusions": []
+}
