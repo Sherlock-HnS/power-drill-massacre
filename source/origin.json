@@ -4,8 +4,8 @@
   "title": "[PILL PACK] Power Drill Massacre (UPDATE)",
   "author": "Brute_Zeal3310",
   "status": "extracted_verified",
-  "acquisition": "existing_steam_client_installation",
-  "steamcmd_download_completed": false,
+  "acquisition": "steamcmd",
+  "steamcmd_download_completed": true,
   "source_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3724045661",
   "source_archive_sha256": "d025039f6dd62d67662d707fead07ff5a1144ed0472adb71bfbbc565b471e72f",
   "gma_header": {
