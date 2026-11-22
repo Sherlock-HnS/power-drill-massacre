@@ -98,6 +98,15 @@ attack = {
             end
         end
 
+        if SherlockHNS and IsValid(entity) and entity:IsPlayer() then
+            return pk_pills.playHNSJumpscare(ply, ent, entity, 0.4, {
+                camera = "PILLSJUMPCAM",
+                offset = 75,
+                animation = "jumpscare",
+                sound = "jumpscare",
+            })
+        end
+
         if IsValid(entity) then
             local pill = ent:GetPuppet()
 
@@ -216,12 +225,12 @@ attack = {
             return
         end
 
-        ent._origRunSpeed = ent._origRunSpeed or ply:GetRunSpeed()
+        local baseRun = ent.formTable.moveSpeed.run
         ent._origRunAnim  = "run"
 
         ent.formTable.anims.default.run = "run"
 		ent.formTable.anims.default.glide = "run"
-        ply:SetRunSpeed(ent._origRunSpeed * 2)
+        pk_pills.setCostumeMoveSpeed(ent, nil, baseRun * 2)
         ent:PillSound("scream")
 
         timer.Simple(1.3, function()
@@ -229,7 +238,7 @@ attack = {
 
             ent.formTable.anims.default.run = ent._origRunAnim
 			ent.formTable.anims.default.glide = ent._origRunAnim
-            ply:SetRunSpeed(ent._origRunSpeed)
+            pk_pills.setCostumeMoveSpeed(ent)
         end)
 
         ent._dashCooldownEnd = CurTime() + 30
@@ -241,6 +250,19 @@ noragdoll=true,
     jump=function(ply,ent)
 
     end
-})
+}, function(form)
+    -- The legacy damage branches are for Sandbox and NPCs.
+    form.hnsKillAPI = true
+    form.hnsAbilities = {
+        { id = "attack", name = "Ataque", key = IN_ATTACK, OnUse = form.attack.func },
+        { id = "dash", name = "Arrancada", key = IN_ATTACK2, cooldown = 30, duration = 1.3,
+            OnUse = function(ply, ent)
+                pk_pills.setCostumeMoveSpeed(ent, nil, ent.formTable.moveSpeed.run * 2)
+                ent:PillSound("scream")
+            end,
+            OnEnd = function(ply, ent) pk_pills.setCostumeMoveSpeed(ent) end },
+    }
+    form.attack, form.attack2, form.reload = nil, nil, nil
+end)
 
 
