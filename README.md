@@ -1,4 +1,4 @@
-[PILL PACK] Power Drill Massacre (UPDATE)
+# [PILL PACK] Power Drill Massacre (UPDATE)
 
 ![Workshop preview](workshop-preview.jpg)
 
